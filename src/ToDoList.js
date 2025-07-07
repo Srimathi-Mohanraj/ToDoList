@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const ToDoList = () => {
 
-    const[list,setlist] = useState ([{id:1,name:"Apple"},{id:2,name:"Orange"}])
+    const[list,setlist] = useState ([{id:1,name:"Milk"},{id:2,name:"Curd"}])
     const[item,setitem] = useState("")
 
     const handleitem =(event) =>{
